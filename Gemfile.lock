@@ -361,7 +361,9 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0512)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
@@ -383,7 +385,7 @@ GEM
       concurrent-ruby (~> 1.0, >= 1.0.2)
       sidekiq (>= 3.5)
       statsd-ruby (~> 1.4, >= 1.4.0)
-    oj (3.10.6)
+    oj (3.11.6)
     omniauth (1.9.1)
       hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
@@ -736,7 +738,7 @@ DEPENDENCIES
   nilsimsa!
   nokogiri (~> 1.10)
   nsa (~> 0.2)
-  oj (~> 3.10)
+  oj (~> 3.11)
   omniauth (~> 1.9)
   omniauth-cas (~> 1.1)
   omniauth-saml (~> 1.10)
