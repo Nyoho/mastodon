@@ -171,7 +171,7 @@ GEM
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     crass (1.0.6)
-    css_parser (1.7.1)
+    css_parser (1.9.0)
       addressable
     debug_inspector (0.0.3)
     devise (4.7.2)
@@ -361,7 +361,9 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0512)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
@@ -418,7 +420,7 @@ GEM
     pghero (2.5.1)
       activerecord (>= 5)
     pkg-config (1.4.1)
-    premailer (1.11.1)
+    premailer (1.15.0)
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
@@ -434,7 +436,7 @@ GEM
       pry (~> 0.13.0)
     pry-rails (0.3.9)
       pry (>= 0.10.4)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     puma (4.3.5)
       nio4r (~> 2.0)
     pundit (2.1.0)
